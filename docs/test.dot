@@ -22,15 +22,45 @@ digraph D {
 	]
 	"page1"[
 		shape = "record",
-		label = "<title> page1\l |<see> display1\ldisplay2\ldisplay3\l |<action0> action\l ",
-		width = "0.8153846153846154"
+		label = "<title> page1\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
 	]
 	"page2"[
 		shape = "record",
-		label = "<title> page2\l |<see> display4\l |<action0> action\l ",
-		width = "0.8153846153846154"
+		label = "<title> page2\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
+	]
+	"page3"[
+		shape = "record",
+		label = "<title> page3\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
+	]
+	"page4"[
+		shape = "record",
+		label = "<title> page4\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
+	]
+	"page5"[
+		shape = "record",
+		label = "<title> page5\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
+	]
+	"page6"[
+		shape = "record",
+		label = "<title> page6\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
+	]
+	"page7"[
+		shape = "record",
+		label = "<title> page7\l |<see> display1111111111111111111111111111111111111\ldisplay2222222222222222222222222222222222222\ldisplay3333333333333333333333333333333333333\l |<action0> action\l ",
+		width = "3.5846153846153848"
 	]
 	"page1":action0 -> "page2"
-	"page2":action0 -> "page1"
+	"page2":action0 -> "page3"
+	"page3":action0 -> "page4"
+	"page4":action0 -> "page5"
+	"page5":action0 -> "page6"
+	"page6":action0 -> "page7"
+	"page7":action0 -> "page1"
 
 }
