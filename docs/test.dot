@@ -1,0 +1,36 @@
+digraph D {
+	graph[
+		charset = "UTF-8",
+		labelloc = "t",
+		labeljust = "r",
+		style = "filled",
+		rankdir = "LR",
+		margin = "0.2",
+		ranksep = "0.5",
+		nodesep = "0.4"
+	]
+	node[
+		style = "solid",
+		fontsize = "11",
+		margin = "0.1,0.1",
+		fontname = "Osaka-Mono,ＭＳ ゴシック"
+	]
+	edge[
+		fontsize = "9",
+		fontname = "Osaka-Mono,ＭＳ ゴシック",
+		color = "#777777"
+	]
+	"page1"[
+		shape = "record",
+		label = "<title> page1\l |<see> display1\ldisplay2\ldisplay3\l |<action0> action\l ",
+		width = "0.8153846153846154"
+	]
+	"page2"[
+		shape = "record",
+		label = "<title> page2\l |<see> display4\l |<action0> action\l ",
+		width = "0.8153846153846154"
+	]
+	"page1":action0 -> "page2"
+	"page2":action0 -> "page1"
+
+}

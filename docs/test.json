@@ -1,0 +1,42 @@
+{
+  "page1": {
+    "name": "page1",
+    "rank": 0,
+    "lines": 0,
+    "see": [
+      "display1",
+      "display2",
+      "display3"
+    ],
+    "id": 1,
+    "actions": [
+      {
+        "text": [
+          "action"
+        ],
+        "direction": "page2",
+        "edge": ""
+      }
+    ],
+    "state": "endaction"
+  },
+  "page2": {
+    "name": "page2",
+    "rank": 0,
+    "lines": 8,
+    "see": [
+      "display4"
+    ],
+    "id": 2,
+    "actions": [
+      {
+        "text": [
+          "action"
+        ],
+        "direction": "page1",
+        "edge": ""
+      }
+    ],
+    "state": "endaction"
+  }
+}
